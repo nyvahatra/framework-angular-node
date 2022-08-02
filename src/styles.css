@@ -1,0 +1,36 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+#topbar{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+    left: 200px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 214px;
+    transition: all .4s ease-in-out !important;
+}
+
+#topbar #hidden{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1270px) {
+    #topbar{
+        width: 100%;
+        height: 80px;
+        left: 80px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-right: 95px;
+        transition: all .4s ease-in-out !important;
+    }
+}

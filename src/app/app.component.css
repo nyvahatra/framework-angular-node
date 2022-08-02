@@ -1,0 +1,177 @@
+#content{
+    width: 100%;
+    padding-top: 92px;
+    padding-left: 218px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    transition: all .4s ease-in-out;
+}
+#loginMax{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: auto;
+    text-align: center;
+    background-color: #53916c;
+    transition: all .3s ease-in-out;
+
+}
+
+#loginMax h1{
+    font-weight: normal;
+    color: rgb(66, 67, 77);
+}
+
+#loginMax #input{
+    width: 90%;
+}
+
+#loginMax #input input{
+    font-size: 17px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#loginMax #input #btn_connexion{
+    background-color: rgb(66, 67, 77);
+    color: white;
+}
+
+@media only screen and (max-width: 1270px) {
+    #content{
+        width: 100%;
+        padding-top: 92px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 98px;
+        transition: all .4s ease-in-out;
+    }
+}
+
+
+
+
+#menu{
+    width: 200px;
+    color: white;
+    transition: all .4s ease-in-out !important;
+}
+#menu #donnee_admin{
+    text-align: center;
+}
+#menu #donnee_admin span a{
+    text-decoration: none;
+}
+#menu #btn_menu button{
+    border-color: black;
+    transition: all .2s ease-in;
+    color: white;
+}
+#menu #btn_sous_menu{
+    transition: all .2s ease-in;
+    color: white;
+}
+#menu #btn_menu #inscription ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menu #btn_menu button:hover{
+    color: white;
+    background-color: #7a7a7ac0;
+}
+#menu #btn_deconnexion{
+    /* background-color: #7ee2a6; */
+    color: white;
+    transition: all .2s ease-in;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* transition: all .2s ease-in-out !important; */
+    border: solid 1px black;
+}
+
+#menu #btn_deconnexion:hover{
+  color: white;
+  background-color: rgb(128, 170, 255);
+}
+
+.is-active{
+    /* color: red; */
+    background-color: rgb(128, 170, 255);
+}
+
+#btn_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* transition: all .4s ease-in-out !important; */
+}
+
+#text_menu{
+    margin-left: 6px;
+    /* transition: all .4s ease-in-out !important; */
+}
+
+#icon_menu{
+    margin-right: 8px;
+    /* transition: all .4s ease-in-out !important; */
+}
+
+#divSM{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#text2{
+    display: none;
+    /* transition: all .4s ease-in-out !important; */
+}
+
+@media only screen and (max-width: 1270px) {
+    #menu{
+        width: 80px;
+        color: white;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #text_menu{
+        display: none;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #btn_menu{
+        display: inline;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #icon_menu{
+        margin: 0;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #menu #btn_deconnexion{
+        margin: 0;
+        display: inline;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #text1{
+        display: none;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #text2{
+        display: inline;
+        transition: all .4s ease-in-out !important;
+    }
+
+    #divSM{
+      padding: 0;
+    }
+
+}
